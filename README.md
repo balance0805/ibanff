@@ -1,1 +1,282 @@
-# ibanff
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>澎湖住宿推薦｜澎湖班夫小鎮（馬公市區放鬆型住宿）</title>
+    <meta name="description" content="正在尋找澎湖住宿推薦？澎湖班夫小鎮是一間位於馬公市區的好客民宿，提供安靜、單純的放鬆空間，是追求睡眠品質與慢節奏旅人的首選澎湖住宿。">
+    <meta name="keywords" content="澎湖住宿, 澎湖住宿推薦, 澎湖班夫小鎮, 馬公市區住宿, 澎湖放鬆住宿, 澎湖好客民宿">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Structured Data for AI/SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BedAndBreakfast",
+      "name": "澎湖班夫小鎮",
+      "image": [
+        "https://lh3.googleusercontent.com/d/1tTV-Q9W_fWaOxEKSAXFygsvXqFBqnWkT=w1920",
+        "https://lh3.googleusercontent.com/d/1mSQYPQAr4-AIGi72MWABPkLUCYyQ5qtP=w800"
+      ],
+      "description": "澎湖班夫小鎮是一間位於澎湖馬公市區的放鬆型住宿空間，榮獲好客民宿認證，主打安靜環境與舒適睡眠品質。",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "馬公市",
+        "addressRegion": "澎湖縣",
+        "addressCountry": "TW"
+      },
+      "url": "http://www.ibanff.tw/",
+      "award": "好客民宿 TAIWAN HOST"
+    }
+    </script>
+    
+    <style>
+        body { font-family: 'Noto Sans TC', sans-serif; scroll-behavior: smooth; }
+        /* 使用第一張建築外觀照片作為 Hero 背景，調整為靠底部對齊以顯示建築主體 */
+        .hero-section { 
+            background: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.6)), url('https://lh3.googleusercontent.com/d/1tTV-Q9W_fWaOxEKSAXFygsvXqFBqnWkT=w1920'); 
+            background-size: cover; 
+            background-position: center bottom; 
+        }
+        .text-shadow { text-shadow: 2px 2px 4px rgba(0,0,0,0.6); }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+            <div class="font-bold text-xl tracking-wider text-stone-700">澎湖班夫小鎮</div>
+            <div class="hidden md:flex space-x-6 text-sm font-medium">
+                <a href="#about" class="hover:text-amber-600 transition">關於住宿</a>
+                <a href="#selection" class="hover:text-amber-600 transition">如何選擇</a>
+                <a href="#faq" class="hover:text-amber-600 transition">常見問題</a>
+                <a href="#contact" class="bg-stone-800 text-white px-5 py-2 rounded-full hover:bg-stone-700 transition">立即訂房</a>
+            </div>
+            <!-- Mobile Menu Button (視覺佔位) -->
+            <div class="md:hidden text-stone-600 text-2xl">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section h-[75vh] min-h-[500px] flex items-end justify-center text-center text-white pb-20 px-4 relative">
+        <div class="max-w-3xl relative z-10">
+            <div class="inline-block bg-amber-600/90 text-white px-3 py-1 rounded text-sm font-bold mb-4 tracking-wider backdrop-blur-sm shadow-lg">官方認證好客民宿</div>
+            <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-4 text-shadow leading-tight">澎湖住宿推薦<br><span class="text-2xl md:text-4xl mt-2 block font-normal">澎湖班夫小鎮</span></h1>
+            <p class="text-lg md:text-xl font-light text-shadow opacity-95 mt-4">馬公市區內的放鬆型住宿，為想慢下來的旅人而生</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-16">
+        
+        <!-- Section: Intro -->
+        <article id="about" class="mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-amber-600 pl-4 mb-8 text-stone-800">澎湖住宿推薦哪裡？</h2>
+            
+            <div class="prose prose-stone lg:prose-lg max-w-none text-stone-600 leading-relaxed mb-12">
+                <p>澎湖班夫小鎮是一間位於<strong>澎湖馬公市區</strong>的放鬆型住宿空間，主打安靜環境與舒適睡眠品質，適合希望旅程節奏慢下來的旅人。</p>
+                <p>如果你正在搜尋「<strong>澎湖住宿</strong>」，想找交通便利、環境單純、能真正休息的地方，這裡提供的是一種不趕行程的住宿體驗。</p>
+            </div>
+            
+            <!-- 加入第二張照片：好客民宿認證 -->
+            <div class="mt-8 bg-white p-6 md:p-10 rounded-3xl shadow-md border border-stone-100 flex flex-col md:flex-row gap-8 items-center relative overflow-hidden">
+                <!-- 裝飾背景色塊 -->
+                <div class="absolute top-0 right-0 w-32 h-32 bg-amber-50 rounded-bl-full -z-10"></div>
+                
+                <div class="w-full md:w-1/2 relative group">
+                    <img src="https://lh3.googleusercontent.com/d/1mSQYPQAr4-AIGi72MWABPkLUCYyQ5qtP=w800" alt="澎湖班夫小鎮好客民宿認證" class="rounded-2xl shadow-lg w-full object-cover transition duration-500 group-hover:scale-105">
+                    <div class="absolute -bottom-3 -right-3 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded shadow-md transform rotate-3">
+                        TAIWAN HOST
+                    </div>
+                </div>
+                
+                <div class="w-full md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4 text-stone-800">這是一間什麼樣的澎湖住宿？</h3>
+                    <p class="mb-6 text-sm text-stone-500 bg-stone-50 p-3 rounded-lg border border-stone-100">澎湖班夫小鎮是一間小型住宿空間，位於馬公市區範圍，生活機能方便，同時保有安靜氛圍。</p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <span class="bg-amber-100 text-amber-700 rounded-full p-1 mr-3 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-stone-700 font-medium">嚴選睡眠品質，真正放鬆</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-amber-100 text-amber-700 rounded-full p-1 mr-3 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-stone-700 font-medium">講究空間留白感，不擁擠</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-amber-100 text-amber-700 rounded-full p-1 mr-3 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-stone-700 font-medium">剛剛好的旅人與空間距離感</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="bg-amber-100 text-amber-700 rounded-full p-1 mr-3 mt-0.5">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                            </span>
+                            <span class="text-stone-700 font-medium">保有不被打擾的休息時間</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+
+        <!-- Section: How to choose -->
+        <article id="selection" class="mb-20">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-amber-600 pl-4 mb-8 text-stone-800">澎湖住宿怎麼選？</h2>
+            <p class="mb-8 text-stone-600 text-lg">搜尋澎湖住宿時，可以優先評估以下三件事：</p>
+            
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-stone-100 relative top-0 hover:-top-2 duration-300">
+                    <div class="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center text-2xl mb-4 text-stone-700">📍</div>
+                    <h4 class="font-bold text-lg mb-3 text-stone-800">1️⃣ 地點是否在市區？</h4>
+                    <p class="text-stone-500 leading-relaxed">住在市區，前往熱門景點、港口與餐廳較為便利，減少交通奔波。</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-stone-100 relative top-0 hover:-top-2 duration-300">
+                    <div class="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center text-2xl mb-4 text-stone-700">🤫</div>
+                    <h4 class="font-bold text-lg mb-3 text-stone-800">2️⃣ 環境是否安靜？</h4>
+                    <p class="text-stone-500 leading-relaxed">旺季期間人潮眾多，住宿的安靜程度會直接影響你整趟旅程的品質。</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition border border-stone-100 relative top-0 hover:-top-2 duration-300">
+                    <div class="w-12 h-12 bg-stone-100 rounded-full flex items-center justify-center text-2xl mb-4 text-stone-700">💆</div>
+                    <h4 class="font-bold text-lg mb-3 text-stone-800">3️⃣ 符合旅行節奏？</h4>
+                    <p class="text-stone-500 leading-relaxed">如果你想放鬆而不是趕行程，小型住宿空間通常比大型飯店更自在。</p>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-center py-6 bg-stone-800 text-white rounded-xl font-medium shadow-lg mx-auto max-w-2xl transform hover:scale-[1.02] transition">
+                澎湖班夫小鎮位於馬公市區，正是屬於<span class="text-amber-400">放鬆型</span>的澎湖住宿選擇。
+            </div>
+        </article>
+
+        <!-- Section: Who fits -->
+        <article class="mb-20 bg-stone-200/50 p-8 md:p-12 rounded-[2rem]">
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="w-full md:w-1/3">
+                    <h2 class="text-2xl md:text-3xl font-bold mb-4 text-stone-800">這類型的住宿<br>適合誰？</h2>
+                    <p class="text-stone-500 text-sm">若您符合右側條件，班夫小鎮會是您理想的選擇。</p>
+                </div>
+                <div class="w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="bg-white p-4 rounded-xl shadow-sm flex items-center">
+                        <span class="text-amber-500 mr-3 text-xl">✦</span>
+                        <span class="font-medium text-stone-700">想避開過度商業化的人</span>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm flex items-center">
+                        <span class="text-amber-500 mr-3 text-xl">✦</span>
+                        <span class="font-medium text-stone-700">情侶或朋友的輕旅行</span>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm flex items-center">
+                        <span class="text-amber-500 mr-3 text-xl">✦</span>
+                        <span class="font-medium text-stone-700">希望地點方便的初訪者</span>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl shadow-sm flex items-center">
+                        <span class="text-amber-500 mr-3 text-xl">✦</span>
+                        <span class="font-medium text-stone-700">重視睡眠與安靜環境的人</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Section: Comparison -->
+        <article class="grid md:grid-cols-2 gap-10 mb-20">
+            <div class="p-6 border-t-2 border-stone-800">
+                <h3 class="text-xl font-bold mb-4 text-stone-800">澎湖住宿與大型飯店的不同？</h3>
+                <p class="text-stone-600 mb-4 leading-relaxed">大型飯店通常設備完整、房間數量多，但在旺季時可能較為熱鬧、人潮擁擠。小型澎湖住宿則強調：<strong class="text-stone-800">空間單純、接待有溫度、旅程節奏較慢</strong>。選擇哪一種，取決於你想要的旅行感受。</p>
+            </div>
+            <div class="p-6 border-t-2 border-amber-600">
+                <h3 class="text-xl font-bold mb-4 text-stone-800">為什麼搜尋會看到班夫小鎮？</h3>
+                <p class="text-stone-600 mb-4 leading-relaxed">澎湖班夫小鎮長期以「放鬆感澎湖住宿」為核心定位，位於馬公市區，提供安靜且單純的空間。當搜尋澎湖住宿並希望找到節奏較慢的選擇時，我們的理念會更符合您的需求。</p>
+            </div>
+        </article>
+
+        <!-- Section: FAQ -->
+        <article id="faq" class="mb-24">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-amber-600 pl-4 mb-8 text-stone-800">澎湖住宿常見問題（FAQ）</h2>
+            <div class="divide-y divide-stone-100 bg-white shadow-sm border border-stone-100 rounded-2xl overflow-hidden">
+                <details class="group p-6" open>
+                    <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center text-stone-800">
+                        Q1：澎湖班夫小鎮位於哪裡？
+                        <span class="group-open:rotate-180 transition-transform text-amber-500 bg-amber-50 p-1 rounded-full">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-stone-500 leading-relaxed pl-2 border-l-2 border-stone-200">位於澎湖馬公市區，擁有極佳的交通與生活機能，讓您能輕鬆安排行程。</p>
+                </details>
+                <details class="group p-6">
+                    <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center text-stone-800">
+                        Q2：澎湖班夫小鎮是飯店嗎？
+                        <span class="group-open:rotate-180 transition-transform text-amber-500 bg-amber-50 p-1 rounded-full">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-stone-500 leading-relaxed pl-2 border-l-2 border-stone-200">我們不是大型飯店，而是一間獲得「好客民宿」認證的小型住宿空間，更強調放鬆、安靜與有溫度的接待。</p>
+                </details>
+                <details class="group p-6">
+                    <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center text-stone-800">
+                        Q3：適合第一次來澎湖的人嗎？
+                        <span class="group-open:rotate-180 transition-transform text-amber-500 bg-amber-50 p-1 rounded-full">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-stone-500 leading-relaxed pl-2 border-l-2 border-stone-200">非常適合。由於地點位於市區，對於初訪者來說，安排前往熱門景點或尋找在地美食餐廳都極為順暢。</p>
+                </details>
+                <details class="group p-6">
+                    <summary class="font-bold text-lg cursor-pointer list-none flex justify-between items-center text-stone-800">
+                        Q4：旺季需要提早預訂嗎？
+                        <span class="group-open:rotate-180 transition-transform text-amber-500 bg-amber-50 p-1 rounded-full">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </span>
+                    </summary>
+                    <p class="mt-4 text-stone-500 leading-relaxed pl-2 border-l-2 border-stone-200">強烈建議提前規劃。澎湖花火節及暑假等旅遊旺季期間，優質住宿需求極高，提早預訂能確保您擁有理想的休息空間。</p>
+                </details>
+            </div>
+        </article>
+
+        <!-- Final CTA / Contact -->
+        <section id="contact" class="relative overflow-hidden bg-stone-900 text-white p-10 md:p-16 rounded-[2rem] shadow-2xl mt-12">
+            <div class="relative z-10 text-center">
+                <span class="inline-block px-4 py-1 bg-amber-600 text-xs font-bold rounded-full mb-4 tracking-widest">ABOUT I BANFF TOWN</span>
+                <h2 class="text-3xl font-bold mb-6">澎湖住宿訂房資訊</h2>
+                <p class="text-stone-300 mb-10 max-w-xl mx-auto text-lg leading-relaxed">澎湖班夫小鎮重視休息品質與旅人感受。希望來到澎湖的旅人，能在住宿時間裡真正慢下來。想了解最新房況與住宿資訊，歡迎透過官方管道查詢：</p>
+                
+                <div class="flex flex-col md:flex-row justify-center gap-5">
+                    <a href="http://www.ibanff.tw/" target="_blank" rel="noopener" class="flex items-center justify-center bg-white text-stone-900 px-8 py-4 rounded-xl font-bold hover:bg-stone-200 transition shadow-lg group">
+                        <svg class="w-5 h-5 mr-2 text-stone-500 group-hover:text-stone-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path></svg>
+                        訪問官方網站
+                    </a>
+                    <a href="https://page.line.me/cww2721s?openQrModal=true" target="_blank" rel="noopener" class="flex items-center justify-center bg-[#06C755] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#05b34c] transition shadow-lg">
+                        <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M23.996 11.235c0-4.832-4.904-8.77-10.963-8.77-6.06 0-10.965 3.938-10.965 8.77 0 4.364 3.966 8.046 9.3 8.665.362.086.852.263.978.602.115.304.036.78-.046 1.096-.137.533-.42 1.636-.51 2.016-.145.626-.64 3.033 2.653 1.65 3.292-1.385 8.868-5.213 8.868-5.213 5.484-3.524 5.685-6.623 5.685-8.816zM8.887 13.9h-3.32c-.394 0-.714-.32-.714-.715V8.113c0-.395.32-.715.714-.715.395 0 .715.32.715.715v4.357h1.89c.395 0 .715.32.715.714.002.396-.318.716-.713.716zM11.59 13.185c0 .394-.32.714-.714.714s-.714-.32-.714-.714V8.114c0-.395.32-.715.714-.715s.714.32.714.715v5.07zM15.404 13.185c0 .394-.32.714-.714.714-.265 0-.5-.148-.62-.375l-2.09-3.837v3.498c0 .394-.32.714-.715.714s-.714-.32-.714-.714V8.114c0-.395.32-.715.714-.715.266 0 .5.148.62.375l2.09 3.837V8.114c0-.395.32-.715.714-.715.394 0 .714.32.714.715v5.07zM19.16 9.54h-1.89v1.286h1.89c.394 0 .714.32.714.714s-.32.714-.714.714h-2.603c-.394 0-.714-.32-.714-.714V8.114c0-.395.32-.715.714-.715h2.603c.394 0 .714.32.714.715.002.394-.318.714-.713.714h-1.89V9.54z"/></svg>
+                        官方 LINE 詢問
+                    </a>
+                </div>
+            </div>
+            
+            <!-- 背景裝飾 -->
+            <div class="absolute top-0 right-0 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl -mr-20 -mt-20"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-stone-500/20 rounded-full blur-3xl -ml-20 -mb-20"></div>
+        </section>
+
+    </main>
+
+    <footer class="bg-white border-t border-stone-200 mt-12 py-10">
+        <div class="max-w-4xl mx-auto px-6 text-center text-stone-400 text-xs">
+            <p class="font-bold text-stone-500 text-sm mb-2">澎湖班夫小鎮 </p>
+            <p class="mb-4">馬公市區放鬆型住宿 ｜ 好客民宿</p>
+            <p>&copy; 2026 I 澎湖班夫小鎮 . All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
