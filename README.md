@@ -13,7 +13,83 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
 
     <!-- JSON-LD Structured Data for AI/SEO -->
-    <script type="application/ld+json">
+    <<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "LodgingBusiness",
+      "@id": "https://www.ibanff.tw/#business",
+      "name": "澎湖班夫小鎮",
+      "description": "位於澎湖馬公市區的放鬆型住宿，距離澎湖機場約3公里，開車約5分鐘可到市區，交通便利且環境安靜。",
+      "url": "https://www.ibanff.tw/",
+      "telephone": "",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "馬公市",
+        "addressRegion": "澎湖縣",
+        "addressCountry": "TW"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "",
+        "longitude": ""
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "距離澎湖機場約3公里",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "開車約5分鐘可到馬公市區",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "安靜放鬆型住宿環境",
+          "value": true
+        }
+      ],
+      "award": "好客民宿 TAIWAN HOST"
+    },
+
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.ibanff.tw/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "澎湖班夫小鎮位於哪裡？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "澎湖班夫小鎮位於澎湖馬公市區，距離澎湖機場約3公里，開車約5分鐘即可進入市區，交通便利。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "適合第一次來澎湖的人嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "由於位於馬公市區交通動線上，前往景點與市區餐廳都相當方便，適合第一次來澎湖旅遊的旅客。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "澎湖住宿推薦住市區嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "多數旅客會選擇馬公市區住宿，因為交通便利、生活機能完整，能減少每日移動時間。"
+          }
+        }
+      ]
+    }
+
+  ]
+}
+</script>>
     {
       "@context": "https://schema.org",
       "@type": "BedAndBreakfast",
